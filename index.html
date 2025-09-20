@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Doe | Portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+
+  <body>
+    <div class="logo">
+      Portfo<span style="color: red;">lio.</span>
+    </div>
+
+    <header>
+      <h1>Jane Doe</h1>
+      <p>Creative Video Editor | Motion Graphics | Visual Storyteller</p>
+    </header>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="intro">
+        <p>I’m a passionate video editor with 4+ years of experience creating content for brands, influencers, and storytellers. My work blends creativity with technical precision, ensuring every project feels cinematic, engaging, and impactful.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <div class="info">
+            <h3>Instagram Reels</h3>
+            <p>Trendy, fast-paced edits that grab attention in under 30 seconds.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="info">
+            <h3>Travel Vlogs</h3>
+            <p>Cinematic storytelling through dynamic cuts and music.</p>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="info">
+            <h3>Product Promos</h3>
+            <p>Highlight brand features with clean transitions and effects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Work</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <div class="info">
+            <p class="proj">Project 1</p>
+            <video class="video" width="295" controls poster="https://via.placeholder.com/295x166.png?text=Video+Preview">
+              <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            </video>
+            <h3>Nature Edit</h3>
+            <p>A cinematic edit blending landscapes with smooth transitions.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="info">
+            <p class="proj">Project 2</p>
+            <video class="video" width="295" controls poster="https://via.placeholder.com/295x166.png?text=Video+Preview">
+              <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+            </video>
+            <h3>Animal World</h3>
+            <p>Showcasing actions of animals</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>My Tools</h2>
+      <div class="skill-grid">
+        <div class="skill-card">
+          <div class="info">
+            <h3>Adobe Premiere Pro</h3>
+            <p>Industry-standard editing software for professional video production.</p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="info">
+            <h3>Adobe After Effects</h3>
+            <p>Motion graphics, animations, and advanced VFX design.</p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="info">
+            <h3>Adobe Photoshop</h3>
+            <p>Eye-catching thumbnails, banners, and image touch-ups.</p>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="info">
+            <h3>CapCut</h3>
+            <p>Quick short-form edits optimized for social media platforms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>What Clients Say</h2>
+      <div class="testimonials">
+        <div class="testimonial">
+          <p>"Jane transformed my travel vlog into a cinematic masterpiece. Absolutely stunning work!" – Alex Johnson</p>
+        </div>
+        <div class="testimonial">
+          <p>"Her edits are trendy, engaging, and perfectly synced to music. Highly recommended!" – Maria Lopez</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact">
+        <p>📱 Instagram: <span style="color: #ff4081;">@janedoe.edits</span></p>
+        <p>📧 Email: <span style="color: #ff4081;">janedoe@email.com</span></p>
+        <a href="#" class="button">📝 Fill Out Project Form</a>
+        <a href="#" class="button" style="margin-left: 10px; background-color: #25D366;">💬 Chat on WhatsApp</a>
+        <div class="availability">
+          <p>📍 <strong>Location:</strong> New York, USA</p>
+          <p>🌍 <strong>Availability:</strong> Open to global collaborations</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Jane Doe | Video Editing Portfolio
+    </footer>
+
+    <div class="scrollTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</div>
+
+    <script>
+      const scrollBtn = document.querySelector('.scrollTop');
+      window.addEventListener('scroll', () => {
+        scrollBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+      });
+    </script>
+  </body>
+</html>
